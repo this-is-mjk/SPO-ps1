@@ -1,0 +1,25 @@
+
+.resume-chain {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    gap: 10px; /* Adjust the gap between items */
+    border: 2px solid black;
+    padding: 1% 2%;
+    height: 200px;
+    margin: 10px auto;
+    max-width: 800px;
+    align-items: center;
+  }
+  
+  .resume-item {
+    height: 180px;
+    margin: auto;
+    border: 3px double black;
+    width: 250px; /* Adjust the width of each resume item */
+  }
+  
+  .resume-item img {
+    width: 100%; /* Make sure images fill their container */
+    border-radius: 5px; /* Add rounded corners */
+  }
+  
